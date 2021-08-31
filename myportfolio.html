@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>My Portfolio</title>
+        <link href="https://fonts.googleapis.com/css?family=Handlee" rel="stylesheet" >
+    </head>
+    <style>
+        body {
+            text-align: center;
+            margin:50px;   
+            padding:50px;
+            background-image: url("back.jfif");
+        }
+         .section {
+             font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+             font-size: larger;
+             color: floralwhite;
+        }
+        .about{
+            text-align: justify;
+            font-size: large;
+            font-family: serif;
+        }
+        .circle{
+            border-radius: 150px;
+            height: 300px;
+            width: 300px;
+        }
+    </style>
+    <body>
+        
+        <div class="section">
+            <div><img class="circle" src="image9.jpg"></div>
+        <h1><span><p>Mia Chin Millos</h1></span></p>
+        
+        <!-- About Me section start -->
+        <div class="about">
+            <h1><span>About Me</span></h1>
+            <p>Hey! I'm <strong>Mia Chin Millos</strong>.I'm currently a 3rd year student in Eastern Visayas State University Carigara Campus(Evsu-CC)taking up Bachelor of Science in Information Technology. I'm 21 years old from Brgy. Pinamopoan Capoocan Leyte. I am a girl who have a positive view in life. There are many things I love to do and to experience. I've read a lot of stories because reading is one of the things I like. I've always wanted to learn coding and be the one that changes the world for the better instead of profit. My dream is to change the world with better technology and better programs that can save the world and improve us to help us thrive. I want to work with <i>Artificial reality and Virtual Reality</i> in the hope that we can look at the world through a different view on things.
+            </p>
+            <p class="quote">"Those who work hard, Enjoy the most"</p>
+        <!-- About Me section end -->
+        
+        <!-- My Gallery section start -->
+        <div class="section">
+            <h1><span>My Gallery</span></h1>
+            <a href="mygallery.html">click here to view my gallery</a>
+        </div>
+        <!-- My Gallery section end -->
+        
+        
+        <!-- My Skills section start -->
+        <div class="section">
+            <h1><span>My Skills</span></h1>
+            <ul>
+                <li>HTML <br />
+                    <progress min="0" max="100" value="50"></progress>
+                </li>
+                <li>JavaScript <br />
+                    <progress min="0" max="100" value="20"></progress>
+                </li>
+                <li>Python <br />
+                    <progress min="0" max="100" value="30"></progress>
+                </li>
+            </ul>
+        </div>
+        <!-- My Skills section end -->
+        
+        
+        <!-- Form section start -->
+       <div class="section">
+            <h1><span>Contact Me</span></h1>
+            
+            <svg class="face" height="100" width="100">
+                <circle cx="50" cy="50" r="50" fill="#FDD835"/>
+                <circle cx="30" cy="30" r="10" fill="#FFFFFF"/>
+                <circle cx="70" cy="30" r="10" fill="#FFFFFF"/>
+                <circle cx="30" cy="30" r="5" fill="#000000"/>
+                <circle cx="70" cy="30" r="5" fill="#000000"/>
+                <path d="M 30 70 q 20 20 40 0" stroke="#FFFFFF" stroke-width="5" fill="none" />
+            </svg>
+                 
+            <form>
+                <input name="name" placeholder="Name" type="text" required /><br/>
+                <input name="email" placeholder="Email" type="email" required /><br/>
+                <textarea name="message" placeholder="Message" required ></textarea>
+                <input type="submit" value="SEND" class="submit" />
+            </form>
+        </div>
+        <!-- Form section end -->
+        
+        <!-- Contacts section start -->
+        <div class="section" id="contacts">
+            <h1><span>Follow Me</span></h1>
+            <div>
+                <a href="#">
+                    <img alt="Facebook" src="https://www.sololearn.com/Uploads/icons/facebook.png"/>
+                </a>
+                <a href="#">
+                    <img alt="Twitter" src="https://www.sololearn.com/Uploads/icons/twitter.png" />
+                </a>
+            </div>
+        </div>
+        <!-- Contacts section end -->
+        
+        <div class="copyright">
+            &copy; 2021 My Blog. All rights reserved.
+        </div>
+        
+    </body>
+</html>
